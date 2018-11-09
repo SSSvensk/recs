@@ -14,4 +14,17 @@ $json = json_decode($resp, true);
 //Printing the array and its structure out using var_dump command.
 var_dump($json)
 
+//Jos käytetään mysql, toimisko tää?
+foreach($json as $item) {
+$insert_value = "INSERT INTO courses (id, unit, code, name, startDate, endDate,
+ teachingLanguage, creditsMin, creditsMax, evaluationScale, enrollmentDescription,
+ enrollmentUrl, subjectCode, degreeProgrammeCode, _opsi_opryhmät, studyPeriods0, 
+ studyPeriods1)VALUES
+('".$item['id']."', '".$item['unit']."', '".$item['code']."', '".$item['name']."',
+'".$item['startDate']."', '".$item['endDate']."', '".$item['teachingLanguage']."',
+'".$item['creditsMin']."', '".$item['creditsMax']."', '".$item['evaluationScale']."',
+'".$item['enrollmentDescription']."', '".$item['enrollmentUrl']."', '".$item['subjectCode']."',
+'".$item['degreeProgrammeCode']."', '".$item['_opsi_opryhmät']."', '".$item['studyPeriods0']."',
+'".$item['studyPeriods1']."')");
+  
 ?>
