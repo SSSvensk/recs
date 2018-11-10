@@ -27,4 +27,16 @@ $insert_value = "INSERT INTO courses (id, unit, code, name, startDate, endDate,
 '".$item['degreeProgrammeCode']."', '".$item['_opsi_opryhmät']."', '".$item['studyPeriods0']."',
 '".$item['studyPeriods1']."')");
   
+// Nettisivun pohjaa? search.php ei täysin hiottu
+<html>
+    <head>
+        <title>Recommender test</title>
+    </head>
+        <body>
+            <form action="search.php" method="GET">
+                <input id="search" type="text" name="query">
+                <input id="submit" type="submit" value="Search">
+            </form>
+        </body>
+</html>
 ?>
