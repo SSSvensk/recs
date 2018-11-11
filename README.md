@@ -20,8 +20,16 @@ Esimerkiksi: $json[0] palauttaa objektin
 ...}
 Vastaavasti unit-attribuutin saa laittamalla unit-avaimen uusien hakasulkeiden sisään: $json[0]["unit"], joka palauttaa arvon "TUTKI".
 
-Tietokannat:
-MySQL vai PSQL?
+Stored data:
+
+* Course name
+* Course code
+* Course subject
+* Course ECTS
+* Course language
+* Keywords
+* Student data
+* Course participation
 
 Algoritmit:
 User-based, content-based
