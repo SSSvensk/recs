@@ -23,13 +23,20 @@ Vastaavasti unit-attribuutin saa laittamalla unit-avaimen uusien hakasulkeiden s
 Stored data:
 
 * Course name
+* Course id
 * Course code
 * Course subject
 * Course ECTS
 * Course language
+* Course periods
 * Keywords
+* Keyword id
 * Student data
 * Course participation
+
+{}
+
+1. 
 
 Algoritmit:
 User-based, content-based
