@@ -29,9 +29,11 @@ Stored data:
 * Course ECTS
 * Course language
 * Course periods
-* Keywords
+* Keyword
 * Keyword id
-* Student data
+* Keywords - course
+* Student name
+* Student number
 * Course participation
 
 {}
