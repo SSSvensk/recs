@@ -1,25 +1,22 @@
 <?php
-$curl = curl_init();
 
-//curl-functions to receive the url and make some settings
-curl_setopt($curl, CURLOPT_URL, "https://opendata.uta.fi:8443/apiman-gateway/UTA/opintojaksot/1.0?apikey=cc65d236-7cca-4d7a-b216-5975f4c14900");
-curl_setopt($curl, CURLOPT_RETURNTRANSFER, TRUE);
+//Tästä tiedostosta ehkä voisi tehdä sivun, jolla kyselyt näytetään.
 
-$servername = "localhost";
-$username = "localhost";
-$password = "";
-$dbname = "test";
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+require_once("dbconn.php");
+require_once("getKeywords.php");
 
 $checkQuery = $conn->query("SELECT COUNT(*) AS cnt FROM course");
 $result = $checkQuery->fetch_assoc();
+
+//Insert data from API, if data doesn't exist.
 if ($result["cnt"] == 0) {
+
+    $curl = curl_init();
+
+    //curl-functions to receive the url and make some settings
+    curl_setopt($curl, CURLOPT_URL, "https://opendata.uta.fi:8443/apiman-gateway/UTA/opintojaksot/1.0?apikey=cc65d236-7cca-4d7a-b216-5975f4c14900");
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, TRUE);
+
     //Executing the curl-requests
     $resp = curl_exec($curl);
     
@@ -60,6 +57,11 @@ $conn->close();
                 <input id="search" type="text" name="query">
                 <input id="submit" type="submit" value="Search">
             </form>
+            <h1>HI!</h1>
+            <p>TODO: Tässä voisi näyttää alla getKeywordissa luodun listan. Nyt tässä vain var_dumbattu</p>
+            <?php
+            var_dump($keywords);
+            ?>
         </body>
 </html>
 
