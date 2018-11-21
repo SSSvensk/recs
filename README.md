@@ -1,7 +1,7 @@
 # recs
 
 Recommender Systems 2018 - Course Recommender
-
+ttt
 PHP:n suorittaminen:
 1. Lataa ja asenna XAMPP (https://www.apachefriends.org/index.html)
 2. Kun asennettu, avaa XAMPP Control Panel, ja käynnistä Apache
