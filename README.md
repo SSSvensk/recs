@@ -36,7 +36,38 @@ Stored data:
 * Student number
 * Course participation
 
-{}
+SELECT * FROM keyword;
++----+------------------------+
+| id | word                   |
++----+------------------------+
+|  1 | Programming            |
+|  2 | Java                   |
+|  3 | WWW                    |
+|  4 | statistics             |
+|  5 | spss                   |
+|  6 | probabilities          |
+|  7 | regression             |
+|  8 | data mining            |
+|  9 | clustering             |
+| 10 | data structures        |
+| 11 | graphs                 |
+| 12 | trees                  |
+| 13 | object-oriented        |
+| 14 | interactive technology |
+| 15 | users                  |
+| 16 | design                 |
+| 17 | jola                   |
+| 18 | data bases             |
+| 19 | sql                    |
+| 20 | er                     |
+| 21 | information systems    |
+| 22 | uml                    |
+| 23 | user scenarios         |
+| 24 | user interfaces        |
+| 25 | thesis                 |
++----+------------------------+
+
+Tällä hetkellä näyttää tuolta noi keywordit.
 
 1. 
 
