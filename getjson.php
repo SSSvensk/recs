@@ -17,32 +17,34 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-//Executing the curl-requests
-$resp = curl_exec($curl);
+$checkQuery = $conn->query("SELECT COUNT(*) AS cnt FROM course");
+$result = $checkQuery->fetch_assoc();
+if ($result["cnt"] == 0) {
+    //Executing the curl-requests
+    $resp = curl_exec($curl);
+    
+    //Decoding the feedback to JSON-array and storing it to variable json
+    $json = json_decode($resp, true);
 
-//Decoding the feedback to JSON-array and storing it to variable json
-$json = json_decode($resp, true);
+    //Printing the array and its structure out using var_dump command.
 
-//Printing the array and its structure out using var_dump command.
-//var_dump($json);
-
-//Jos käytetään mysql, toimisko tää?
-foreach($json as $item) {
-	if ($item['code'] != "") {
-		$periods = "";
-        $periodslength = sizeof($item["studyPeriods"]);
-        for ($i = 0; $i < $periodslength; $i++) {
-        	$periods .= $item["studyPeriods"][$i]. " ";
+    //Jos käytetään mysql, toimisko tää?
+    foreach($json as $item) {
+        if ($item['code'] != "") {
+            $periods = "";
+            $periodslength = sizeof($item["studyPeriods"]);
+            for ($i = 0; $i < $periodslength; $i++) {
+                $periods .= $item["studyPeriods"][$i]. " ";
+            }
+            $conn->query("SET NAMES utf8");
+            $sql = "INSERT INTO course (code, id, name, subject, language, periods, minects, maxects) VALUES ('".$item['code']."', '".$item['id']."', '".$item['name']."', '".$item['degreeProgrammeCode']."','".$item['teachingLanguage']."', '".$periods."','".$item['creditsMin']."', '".$item['creditsMax']."')";
+            if ($conn->query($sql) === TRUE) {
+                echo "";
+            } else {
+                //echo "Error: " . $conn->error;
+            }
         }
-        $conn->query("SET NAMES utf8");
-        $sql = "INSERT INTO course (code, id, name, subject, language, periods, minects, maxects) VALUES ('".$item['code']."', '".$item['id']."', '".$item['name']."', '".$item['degreeProgrammeCode']."','".$item['teachingLanguage']."', '".$periods."','".$item['creditsMin']."', '".$item['creditsMax']."')";
-        if ($conn->query($sql) === TRUE) {
-            echo "";
-        } else {
-            //echo "Error: " . $conn->error;
-        }
-	}
-	
+    }
 }
 
 $conn->close();
