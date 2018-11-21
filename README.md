@@ -69,10 +69,8 @@ SELECT * FROM keyword;
 
 Tällä hetkellä näyttää tuolta noi keywordit.
 
-1. 
-
-Algoritmit:
-User-based, content-based
+SQL-kysely laskemaan avainsanojen merkityksen:
+SELECT keyword.word, COUNT(*) as importance FROM course, attends, student, includes, keyword WHERE student.number = 98607 AND student.number = attends.stnumb AND attends.coursecode = course.code AND course.code = includes.ccode AND includes.kid = keyword.id GROUP BY keyword.word ORDER BY importance DESC;
 
 Käyttöliittymä:
 Further discussion needed
