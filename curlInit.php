@@ -18,6 +18,7 @@ if ($result["cnt"] == 0) {
     $json = json_decode($resp, true);
 
     //Printing the array and its structure out using var_dump command.
+    
 
     //Jos käytetään mysql, toimisko tää?
     foreach($json as $item) {
@@ -28,11 +29,11 @@ if ($result["cnt"] == 0) {
                 $periods .= $item["studyPeriods"][$i]. " ";
             }
             $conn->query("SET NAMES utf8");
-            $sql = "INSERT INTO course (code, id, name, subject, language, periods, minects, maxects) VALUES ('".$item['code']."', '".$item['id']."', '".$item['name']."', '".$item['degreeProgrammeCode']."','".$item['teachingLanguage']."', '".$periods."','".$item['creditsMin']."', '".$item['creditsMax']."')";
+            $sql = "INSERT INTO course (code, id, name, subject, language, periods, minects, maxects) VALUES ('".$item['code']."', '".$item['id']."', '".$item['name']."', '".$item['subjectCode']."','".$item['teachingLanguage']."', '".$periods."','".$item['creditsMin']."', '".$item['creditsMax']."')";
             if ($conn->query($sql) === TRUE) {
                 echo "";
             } else {
-                //echo "Error: " . $conn->error;
+                echo "Error: " . $conn->error;
             }
         }
     }
