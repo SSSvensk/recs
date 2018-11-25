@@ -1,0 +1,50 @@
+$sql = "INSERT INTO keyword (id, word)
+VALUES (1, 'Programming')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (2, 'Java')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (3, 'WWW')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (4, 'Statistics')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (5, 'SPSS')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (6, 'Probabilities')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (7, 'Regression')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (8, 'Data Mining')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (9, 'Clustering')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (10, 'Data structures')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (11, 'Graphs')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (12, 'Trees')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (13, 'Object-oriented')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (14, 'Interactive Technology')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (15, 'Users')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (16, 'Design')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (17, 'Jola')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (18, 'Databases')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (19, 'SQL')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (20, 'ER')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (21, 'Information Systems')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (22, 'UML')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (23, 'User scenarios')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (24, 'User Interfaces')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (25, 'Thesis')";
