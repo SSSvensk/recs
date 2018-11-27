@@ -39,5 +39,5 @@ if ($result["cnt"] == 0) {
     }
 }
 
-$conn->close();
+//$conn->close();
 ?>

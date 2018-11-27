@@ -30,9 +30,7 @@ $query = $_GET['query'];
             while($results = mysql_fetch_array($raw_results)){
             // $results = mysql_fetch_array($raw_results) puts data from database into array, while it's valid it does the loop
              
-                echo "<p>".$results['id']..$results['subject']..$results['code'].
-                .$results['name']..$results['language']..$results['minects']..$results['maxects'].
-                .$results['periods']."</p>";
+                echo "<p>".$results['id']..$results['subject']..$results['code']..$results['name']..$results['language']..$results['minects']..$results['maxects']..$results['periods']."</p>";
                  // posts results gotten from database you can also show id ($results['id'])
             }
              
