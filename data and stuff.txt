@@ -48,6 +48,498 @@ $sql = "INSERT INTO keyword (id, word)
 VALUES (24, 'User Interfaces')";
 $sql = "INSERT INTO keyword (id, word)
 VALUES (25, 'Thesis')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (26, 'Orientation')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (27, 'Project')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (28, 'Business')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (29, 'Math')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (30, 'Analysis')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (31, 'Algebra')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (32, 'Multi-variable')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (33, 'Inference')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (34, 'Practical')";
+$sql = "INSERT INTO keyword (id, word)
+VALUES (35, 'Images')";
 
-931-1092
 
+931-1092 LUOTK
+931-
+
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (1,'TIEP1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (2,'TIEP1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (26,'TIEY1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (21,'TIEY4')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (26,'TIEY4')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (4,'MTTTP1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (5,'MTTTP1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (11,'MTTTP1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (4,'MTTTA1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (5,'MTTTA1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (11,'MTTTA1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (8,'TIETS31')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (10,'TIETS31')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (18,'TIETS31')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (21,'TIETS31')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (1,'TIETA6')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (10,'TIETA6')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (12,'TIETA6')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (14,'TIEP2')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (15,'TIEP2')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (16,'TIEP2')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (23,'TIEP2')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (10,'TIEP3')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (16,'TIEP3')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (11,'TIEP3')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (19,'TIEP3')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (20,'TIEP3')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (22,'TIEP3')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (11,'TIEP4')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (16,'TIEP4')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (21,'TIEP4')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (14,'TIEA1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (15,'TIEA1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (16,'TIEA1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (24,'TIEA1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (1,'TIEP5')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (2,'TIEP5')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (25,'TIEA5')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (15,'LUOYY023')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (26,'LUOYY023')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (26,'LUOYY003')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (21,'LUOYY003')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (26,'TIEY2')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (1,'TIETA9')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (3,'TIETA9')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (13,'TIETA9')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (16,'TIETA9')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (24,'TIETA9')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (1,'TIETA7')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (2,'TIETA7')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (3,'TIETA7')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (10,'TIETA7')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (18,'TIETA7')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (19,'TIETA7')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (21,'TIETA7')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (16,'TIEA4')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (27,'TIEA4')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (10,'TIEA3')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (11,'TIEA3')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (22,'TIEA3')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (27,'TIEA3')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (4,'MTTTP5')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (6,'MTTTP5')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (7,'MTTTP5')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (28,'TIETS40')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (28,'TIETS41')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (15,'TIETA15')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (16,'TIETA15')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (21,'TIETA15')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (1,'TIETA19')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (13,'TIETA19')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (10,'TIETA17')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (18,'TIETA17')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (21,'TIETA17')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (25,'TIETS21')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (26,'TIETS21')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (15,'TIETS17')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (16,'TIETS17')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (23,'TIETS17')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (24,'TIETS17')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (16,'LUOYA200')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (27,'LUOYA200')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (1,'TIETS13')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (13,'TIETS13')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (1,'TIETS14')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (18,'TIETS14')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (21,'TIETS14')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (16,'TIETS19')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (27,'TIETS19')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (1,'TIETA10')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (13,'TIETA10')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (1,'TIETA11')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (13,'TIETA11')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (3,'TIETS44')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (10,'TIETS44')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (21,'TIETS44')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (1,'TIETS43')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (13,'TIETS43')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (15,'TIETS43')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (16,'TIETS43')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (18,'TIETS43')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (21,'TIETS43')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (25,'TIETS18')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (1,'TIEVA31')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (10,'TIEVA31')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (24,'TIEVA31')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (26,'TIETA18')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (26,'MTTY1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (29,'MTTY3')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (4,'MTTY3')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (29,'MTTMY1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (9,'MTTMY1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (29,'MTTMP1A')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (30,'MTTMP1A')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (29,'MTTMP2')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (29,'MTTMP3')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (30,'MTTMP3')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (31,'MTTMP3')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (29,'MTTMP4')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (31,'MTTMP4')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (29,'MTTMA1A')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (30,'MTTMA1A')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (29,'MTTMA1B')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (30,'MTTMA1B')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (29,'MTTMA1C')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (30,'MTTMA1C')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (29,'MTTMA2')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (31,'MTTMA2')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (29,'MTTMA3B')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (31,'MTTMA3B')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (25,'MTTA1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (29,'MTTMA4')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (32,'MTTMA4')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (29,'MTTMA2')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (32,'MTTMA2')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (29,'MTTMA15')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (26,'MTTMA15')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (4,'MTTTY1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (5,'MTTTY1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (26,'MTTTY1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (4,'MTTTP4')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (6,'MTTTP4')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (4,'MTTTA2')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (29,'MTTTA2')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (4,'MTTTA14')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (4,'MTTTA4')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (6,'MTTTA4')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (33,'MTTTA4')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (4,'MTTTA13')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (27,'MTTTA13')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (4,'MTTTS11')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (29,'MTTTS11')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (25,'MTTTS11')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (4,'MTTTS12')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (30,'MTTTS16')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (4,'MTTTS17')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (4,'MTTA2')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (33,'MTTA2')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (10,'MTTA2')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (4,'DPIS1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (29,'DPIS1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (25,'DPIS1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (26,'DPIS2')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (25,'DPIS2')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (26,'LUOYY006')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (26,'LUOYY005')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (26,'LUOYY004')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (1,'TIETS09')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (29,'TIETS09')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (4,'MTTY4')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (29,'MTTY4')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (27,'TIETA13')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (16,'TIETA8')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (21,'TIETA8')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (4,'MTTS1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (30,'MTTS1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (25,'MTTMS10')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (26,'MTTMS10')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (1,'TIETA12')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (3,'TIETA12')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (10,'TIETA12')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (18,'TIETA12')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (34,'LUOYY020')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (34,'LUOYY019')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (34,'LUOYY021')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (34,'LUOYY025')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (34,'LUOYY026')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (34,'LUOYY007')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (11,'TIETS26')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (20,'TIETS26')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (10,'TIETS26')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (27,'TIETS35')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (1,'TIETS07')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (29,'TIETS07')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (14,'TIETS07')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (1,'TIETS05')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (35,'TIETS05')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (1,'TIETS46')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (10,'TIETS46')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (33,'MTTMA10')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (12,'MTTMA10')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (29,'MTTMA10')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (33,'MTTMA11')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (12,'MTTMA11')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (29,'MTTMA11')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (29,'MTTTA7')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (4,'MTTTA7')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (4,'MTTTA6')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (7,'MTTTA6')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (29,'MTTMS1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (31,'MTTMS1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (29,'MTTMS3')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (29,'MTTMS5')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (30,'MTTMS5')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (29,'MTTMS11')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (34,'MTTMS11')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (4,'MTTTS13')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (1,'LUOYY027')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (4,'LUOYY027')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (13,'LUOYY027')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (10,'LUOYY027')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (29,'TIETS02')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (4,'MTTTS14')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (7,'MTTTS14')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (15,'TIEVA36')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (16,'TIEVA36')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (24,'TIEVA36')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (1,'TIEA2.1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (13,'TIEA2.1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (22,'TIEA2.1')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (1,'TIEA2.1B')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (13,'TIEA2.1B')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (22,'TIEA2.1B')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (4,'MTTTA9')";
+$sql = "INSERT INTO includes (kid, ccode)
+VALUES (33,'MTTTA9')";
