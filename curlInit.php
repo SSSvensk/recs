@@ -17,9 +17,6 @@ if ($result["cnt"] == 0) {
     //Decoding the feedback to JSON-array and storing it to variable json
     $json = json_decode($resp, true);
 
-    //Printing the array and its structure out using var_dump command.
-    
-
     //Jos k‰ytet‰‰n mysql, toimisko t‰‰?
     foreach($json as $item) {
         if ($item['code'] != "") {

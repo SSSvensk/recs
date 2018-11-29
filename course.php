@@ -11,7 +11,7 @@ class Course {
 	public $maxects;
 	public $keywords = array();
 
-	public function __construct($cid, $ccode, $cname, $csubject, $clanguage, $cperiods, $cminects, $cmaxects) {
+	public function __construct($cid, $ccode, $cname, $csubject = "UTA", $clanguage, $cperiods = "", $cminects, $cmaxects) {
 		$this->id = $cid;
 		$this->code = $ccode;
 		$this->name = $cname;
