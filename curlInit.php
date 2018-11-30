@@ -30,7 +30,7 @@ if ($result["cnt"] == 0) {
             if ($conn->query($sql) === TRUE) {
                 echo "";
             } else {
-                echo "Error: " . $conn->error;
+                echo "";
             }
         }
     }

@@ -23,6 +23,19 @@ class Student {
 
 	//Counting the Jaccard similarity between two students
 
+	public function notAttendedCourses($s) {
+		$notAttended = array();
+		foreach ($s->courses as $course) {
+			if (in_array($course, $this->courses)) {
+				continue;
+			} else {
+				$notAttended[] = $course;
+			}
+		}
+
+		return $notAttended;
+	}
+
 	public function countSimilarity($s) {
 		$intersect = 0;
 		foreach($this->courses as $course) {
@@ -34,6 +47,6 @@ class Student {
 		} 
 
 		$similarity = $intersect / (count($this->courses) + count($s->courses) - $intersect);
-		return $similarity;;
+		return $similarity;
 	}
 }

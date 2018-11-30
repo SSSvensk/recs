@@ -25,6 +25,20 @@ class Course {
 	public function addKeywords($kw) {
 		$this->keywords = $kw;
 	}
+
+	public function countSimilarity($s) {
+		$intersect = 0;
+		foreach($this->keywords as $keyword) {
+			foreach($s->keywords as $otherkeyword) {
+				if ($keyword == $otherkeyword) {
+					$intersect++;
+				}
+			}
+		} 
+
+		$similarity = $intersect / (count($this->keywords) + count($s->keywords) - $intersect);
+		return $similarity;
+	}
 }
 
 ?>
