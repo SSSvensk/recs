@@ -2300,3 +2300,19 @@ usort($array, function($a, $b) {
     }
     return $retval;
 });
+
+
+$ratememory = array();
+			foreach ($recommended as $course) {
+				$count = 0;
+				$semirate = 0;
+				$ratings = $conn->query("SELECT rate FROM attends WHERE coursecode LIKE '". $course->code ."'");
+				while($ratearray = $ratings -> fetch_assoc()){
+					$semirate = $semirate + $ratearray['rate'];
+					$count = count + 1;
+				}
+				$finalrate = $semirate / $count;
+				$finalrate = ceil($finalrate);
+				$ratememory[$course->code] = $finalrate;
+			}
+			arsort($ratememory);

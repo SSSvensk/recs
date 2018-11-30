@@ -47,6 +47,23 @@ require_once("points.php");
                 }
                 next($points);
             }
+			$ratememory = array();
+			$count = 0;
+			$semirate = 0;
+			foreach ($recommended as $course) {
+				$ratings = $conn->query("SELECT rate FROM attends WHERE coursecode = '". $course->code ."'");
+				while($ratearray = $ratings->fetch_assoc()){
+					$semirate = $semirate + $ratearray['rate'];
+					$count = $count + 1;
+					echo $ratearray['rate'];
+				}
+				echo "<br>";
+				echo $count;
+				$finalrate = $semirate / $count;
+				$ratememory[$course->code] = $finalrate;
+			}
+			arsort($ratememory);
+			var_dump($ratememory);
         ?>
         <p id = "list"></p>
     </body>
@@ -55,6 +72,7 @@ require_once("points.php");
 var periods = ["1", "2", "3", "4"];
 
 var recommended = <?php echo json_encode($recommended); ?>;
+console.log(recommended);
 createOutput(recommended);
 
 
@@ -101,4 +119,5 @@ function checkAddress(checkbox) {
         createOutput(periodRecs);
     }
 }
+$conn->close();
 </script>
