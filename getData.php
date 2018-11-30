@@ -61,5 +61,5 @@ if ($result->num_rows > 0) {
 }
 $GLOBALS['students'] = $students;
 
-$conn->close();
+
 ?>

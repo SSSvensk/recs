@@ -41,4 +41,6 @@ function calculatePoints($courses, $student) {
 	return $pointranking;
 }
 
+
+
 ?>

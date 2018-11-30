@@ -39,4 +39,4 @@ CREATE TABLE `includes` (
   KEY `ccode` (`ccode`),
   CONSTRAINT `includes_ibfk_1` FOREIGN KEY (`ccode`) REFERENCES `course` (`code`),
   CONSTRAINT `includes_ibfk_2` FOREIGN KEY (`kid`) REFERENCES `keyword` (`id`)
-)
+);

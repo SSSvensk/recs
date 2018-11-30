@@ -97,6 +97,25 @@ for ($i = 0; $i < count($sims); $i++) {
             <input type="checkbox" name="vehicle" value="4" onclick="checkAddress(this)" checked> Period 4<br>
         </form>
         <h1>Recommended based on other students</h1>
+        <?php
+			$ratememory = array();
+			$count = 0;
+			$semirate = 0;
+			foreach ($similiarcourses as $course) {
+				$ratings = $conn->query("SELECT rate FROM attends WHERE coursecode = '". $course->code ."'");
+				while($ratearray = $ratings->fetch_assoc()){
+					$semirate = $semirate + $ratearray['rate'];
+					$count = $count + 1;
+					echo $ratearray['rate'];
+				}
+				echo "<br>";
+				echo $count;
+				$finalrate = $semirate / $count;
+				$ratememory[$course->code] = $finalrate;
+			}
+            $conn->close();
+			arsort($ratememory);
+        ?>
         <p id = "list"></p>
     </body>
 </html>
@@ -106,9 +125,7 @@ var periods = ["1", "2", "3", "4"];
 
 var recommended = <?php echo json_encode($sims); ?>;
 var similiarcourses = <?php echo json_encode($similiarcourses); ?>;
-console.log(similiarcourses);
-//console.log(recommended);
-console.log(similiarcourses["LUOYY004"]);
+
 createOutput(recommended);
 
 
@@ -175,4 +192,5 @@ function checkAddress(checkbox) {
         createOutput(periodRecs);
     }
 }
+
 </script>

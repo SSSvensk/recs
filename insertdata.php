@@ -1886,990 +1886,1479 @@ $conn->query($sql);
 
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('LUOYY003',36418 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY2',36418 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY1',36418 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY4',36418 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTP1',36418 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTMY1',36418 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTP5',36418 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP1',36418 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP2',36418 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP3',36418 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP4',36418 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP5',36418 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA1',36418 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1',36418 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1A',36418 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1B',36418 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA5',36418 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA6',36418 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA4',36418 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('LUOYA200',36418 ,0 )";
+$conn->query($sql);
 
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('LUOYY003',83469 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY2',83469 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY1',83469 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY4',83469 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTP1',83469 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTMY1',83469 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTP5',83469 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP1',83469 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP2',83469 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP3',83469 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP4',83469 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP5',83469 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA1',83469 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1',83469 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1A',83469 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1B',83469 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA5',83469 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA6',83469 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA4',83469 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('LUOYA200',83469 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA3',83469 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA6',83469 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA7',83469 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA8',83469 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA9',83469 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA10',83469 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA11',83469 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA34',83469 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA35',83469 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA33',83469 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA15',83469 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA13',83469 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA17',83469 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA38',83469 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA31',83469 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA19',83469 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA16',83469 ,1 )";
+$conn->query($sql);
 
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('LUOYY003',81797 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY2',81797 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY1',81797 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY4',81797 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTP1',81797 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTMY1',81797 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTP5',81797 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP1',81797 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP2',81797 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP3',81797 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP4',81797 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP5',81797 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA1',81797 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1',81797 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1A',81797 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1B',81797 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA5',81797 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA6',81797 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA4',81797 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('LUOYA200',81797 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA3',81797 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA6',81797 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA7',81797 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA8',81797 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA9',81797 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA10',81797 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA11',81797 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA34',81797 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA35',81797 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA33',81797 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA15',81797 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA13',81797 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA17',81797 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA38',81797 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA31',81797 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA19',81797 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA16',81797 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS17',81797 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS14',81797 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS13',81797 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS19',81797 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS18',81797 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS15',81797 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS120',81797 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS16',81797 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS38',81797 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS42',81797 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS43',81797 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS46',81797 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS33',81797 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS37',81797 ,1 )";
+$conn->query($sql);
 
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('LUOYY003',73698 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY2',73698 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY1',73698 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY4',73698 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTP1',73698 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTMY1',73698 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTP5',73698 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP1',73698 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP2',73698 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP3',73698 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP4',73698 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP5',73698 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA1',73698 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1',73698 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1A',73698 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1B',73698 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA5',73698 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA6',73698 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA4',73698 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('LUOYA200',73698 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA3',73698 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA6',73698 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA7',73698 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA8',73698 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA9',73698 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA10',73698 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA11',73698 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA34',73698 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA35',73698 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA33',73698 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA15',73698 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA13',73698 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA17',73698 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA38',73698 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA31',73698 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA19',73698 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA16',73698 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS17',73698 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS14',73698 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS13',73698 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS19',73698 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS18',73698 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS15',73698 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS120',73698 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS16',73698 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS38',73698 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS42',73698 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS43',73698 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS46',73698 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS33',73698 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS37',73698 ,0 )";
+$conn->query($sql);
 
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('LUOYY003',19342 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY2',19342 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY1',19342 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY4',19342 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTP1',19342 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTMY1',19342 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTP5',19342 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP1',19342 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP2',19342 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP3',19342 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP4',19342 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP5',19342 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA1',19342 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1',19342 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1A',19342 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1B',19342 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA5',19342 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA6',19342 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA4',19342 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('LUOYA200',19342 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA3',19342 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA6',19342 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA7',19342 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA8',19342 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA9',19342 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA10',19342 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA11',19342 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA34',19342 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA35',19342 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA33',19342 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA15',19342 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA13',19342 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA17',19342 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA38',19342 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA31',19342 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA19',19342 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA16',19342 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS11',19342 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS01',19342 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS07',19342 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS11',19342 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS31',19342 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS39',19342 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS42',19342 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS43',19342 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS44',19342 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS33',19342 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS12',19342 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS14',19342 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS21',19342 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS13',19342 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS15',19342 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS16',19342 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS17',19342 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS18',19342 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS19',19342 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA17',19342 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS05',19342 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS20',19342 ,1 )";
+$conn->query($sql);
 
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('LUOYY003',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY2',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY1',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY4',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTP1',77546 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTMY1',77546 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTP5',77546 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP1',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP2',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP3',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP4',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP5',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA1',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1',77546 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1A',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1B',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA5',77546 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA6',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA4',77546 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('LUOYA200',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA3',77546 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA6',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA7',77546 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA8',77546 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA9',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA10',77546 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA11',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA34',77546 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA35',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA33',77546 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA15',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA13',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA17',77546 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA38',77546 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA31',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA19',77546 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA16',77546 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS11',77546 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS01',77546 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS07',77546 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS11',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS31',77546 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS39',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS42',77546 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS43',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS44',77546 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS33',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS12',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS14',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS21',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS13',77546 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS15',77546 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS16',77546 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS17',77546 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS18',77546 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS19',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA17',77546 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS05',77546 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS20',77546 ,0 )";
+$conn->query($sql);
 
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('LUOYY003',16547 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY2',16547 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY1',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY4',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTP1',16547 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTMY1',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTP5',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP1',16547 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP2',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP3',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP4',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP5',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA1',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1A',16547 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1B',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA5',16547 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA6',16547 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA4',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('LUOYA200',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA3',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA6',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA7',16547 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA8',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA9',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA10',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA11',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA34',16547 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA35',16547 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA33',16547 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA15',16547 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA13',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA17',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA38',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA31',16547 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA19',16547 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA16',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS11',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS01',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS07',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS11',16547 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS31',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS39',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS42',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS43',16547 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS44',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS33',16547 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS12',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS14',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS21',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS13',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS15',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS16',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS17',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS18',16547 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS19',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA17',16547 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS05',16547 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTS20',16547 ,1 )";
+$conn->query($sql);
 
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('LUOYY003',52112 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY2',52112 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY1',52112 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY4',52112 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTP1',52112 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTMY1',52112 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTP5',52112 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP1',52112 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP2',52112 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP3',52112 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP4',52112 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP5',52112 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA1',52112 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1',52112 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1A',52112 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1B',52112 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA5',52112 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA6',52112 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA4',52112 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('LUOYA200',52112 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA3',52112 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA6',52112 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA7',52112 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA8',52112 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA9',52112 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA10',52112 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA11',52112 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA34',52112 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA35',52112 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA33',52112 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA15',52112 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA13',52112 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA17',52112 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA38',52112 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA31',52112 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA19',52112 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA16',52112 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS37',52112 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS01',52112 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS02',52112 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS03',52112 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS21',52112 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS07',52112 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS09',52112 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS11',52112 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS39',52112 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS10',52112 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS05',52112 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS31',52112 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS12',52112 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS43',52112 ,0 )";
+$conn->query($sql);
 
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('LUOYY003',38194 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY2',38194 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY1',38194 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY4',38194 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTP1',38194 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTMY1',38194 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTP5',38194 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP1',38194 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP2',38194 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP3',38194 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP4',38194 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP5',38194 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA1',38194 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1',38194 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1A',38194 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1B',38194 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA5',38194 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA6',38194 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA4',38194 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('LUOYA200',38194 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA3',38194 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA6',38194 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA7',38194 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA8',38194 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA9',38194 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA10',38194 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA11',38194 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA34',38194 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA35',38194 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA33',38194 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA15',38194 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA13',38194 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA17',38194 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA38',38194 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA31',38194 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA19',38194 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA16',38194 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS37',38194 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS19',38194 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS24',38194 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS17',38194 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS21',38194 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS25',38194 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS26',38194 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS27',38194 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS28',38194 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS35',38194 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS40',38194 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS41',38194 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS33',38194 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS34',38194 ,0 )";
+$conn->query($sql);
 
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('LUOYY003',10672 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY2',10672 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY1',10672 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEY4',10672 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTP1',10672 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTMY1',10672 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('MTTTP5',10672 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP1',10672 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP2',10672 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP3',10672 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP4',10672 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEP5',10672 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA1',10672 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1',10672 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1A',10672 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA2.1B',10672 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA5',10672 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA6',10672 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA4',10672 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('LUOYA200',10672 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEA3',10672 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA6',10672 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA7',10672 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA8',10672 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA9',10672 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA10',10672 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA11',10672 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA34',10672 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA35',10672 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA33',10672 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA15',10672 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA13',10672 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA17',10672 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA38',10672 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIEVA31',10672 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA19',10672 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETA16',10672 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS37',10672 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS26',10672 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS27',10672 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS28',10672 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS10',10672 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS11',10672 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS31',10672 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS36',10672 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS02',10672 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS32',10672 ,0 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS34',10672 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS21',10672 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS42',10672 ,1 )";
+$conn->query($sql);
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS43',10672 ,0 )";
+$conn->query($sql);
 
 ?>

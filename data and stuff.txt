@@ -2274,3 +2274,45 @@ $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS42',10672 ,1 )";
 $sql = "INSERT INTO attends (coursecode, stnumb, rate)
 VALUES ('TIETS43',10672 ,0 )";
+
+$count = 0;
+$semirate = 0;
+$ratings = SELECT rate FROM attends WHERE (coursecode = $results['code']);
+while($ratearray = mysql_fetch_array($ratings)){
+	$semirate = $semirate + $ratearray['rate'];
+	$count = count + 1;
+}
+$finalrate = $semirate / $count;
+$finalrate = ceil($finalrate);
+
+$array = [];
+while($results = mysql_fetch_array($raw_results)){
+$array[] = $results;
+}
+
+usort($array, function($a, $b) {
+    $retval = $a['rate'] <=> $b['rate'];
+    if ($retval == 0) {
+        $retval = $a['suborder'] <=> $b['suborder'];
+        if ($retval == 0) {
+            $retval = $a['details']['subsuborder'] <=> $b['details']['subsuborder'];
+        }
+    }
+    return $retval;
+});
+
+
+$ratememory = array();
+			foreach ($recommended as $course) {
+				$count = 0;
+				$semirate = 0;
+				$ratings = $conn->query("SELECT rate FROM attends WHERE coursecode LIKE '". $course->code ."'");
+				while($ratearray = $ratings -> fetch_assoc()){
+					$semirate = $semirate + $ratearray['rate'];
+					$count = count + 1;
+				}
+				$finalrate = $semirate / $count;
+				$finalrate = ceil($finalrate);
+				$ratememory[$course->code] = $finalrate;
+			}
+			arsort($ratememory);
