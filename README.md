@@ -7,6 +7,7 @@ PHP:n suorittaminen:
 2. Kun asennettu, avaa XAMPP Control Panel, ja käynnistä Apache
 3. Avaa selain ja kirjoittamalla osoiteriville localhost:[XAMPP:in näyttämä portti] (Yleensä portti on valmiiksi määritelty 8080 tai 80, niin kirjoita se)
 4. Pitäisi tulla Apachen oletusetusivu näkyville, mikä tarkoittaa, että serveri pyörii onnistuneesti.
+5. Aseta php.ini-tiedostosta max_execution_time 30 -> 300.
 
 Open data:
 https://opendata.uta.fi:8443/apiman-gateway/UTA/opintojaksot/1.0?apikey=[PERSONAL_API_KEY]
